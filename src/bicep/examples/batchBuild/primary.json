@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourcePrefix": {
+      "value":"floo"
+    },
+	"deployRemoteAccess": {
+		"value": true
+	},
+	"linuxVmAdminPasswordOrKey": {
+		"value": "Whattheheckisgoing??1"
+	},
+	"windowsVmAdminPassword": {
+		"value": "Whattheheckisgoing??1"
+	},
+	"windowsVmAdminUsername": {
+		"value": "agenice"
+	}  
+  },
+  "extras": {
+    "deploymentName":{
+      "value":"myMlzDeployment"
+    },
+    "mainFileLocation":{ 
+      "value":"../../mlz.bicep"
+    },
+    "location":{
+      "value":"eastus"
+    },
+    "resourcePrefix": {
+      "value":"floo"
+    }  
+  }
+}

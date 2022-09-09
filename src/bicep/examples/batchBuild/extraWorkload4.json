@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workloadName": {
+			"value": "tier4"
+		},
+		"location": {
+			"value": "eastus"
+		},
+		"virtualNetworkAddressPrefix": {
+			"value": "10.0.190.0/26"
+		},
+		"subnetAddressPrefix": {
+			"value": "10.0.190.0/27"
+		}
+	},
+	"extras": {
+		"subscriptionID": {
+			"value": "e3697243-730b-4c31-a3df-930ad6293bb8"
+		},
+		"deploymentName": {
+			"value": "myMlzDeployment"
+		},
+		"_deploymentNameComment_": {
+			"value": "This is the name of the deployment that created the initial 4 Tiers; Hub, Identity, Operations, Shared"
+		}
+	}
+}
